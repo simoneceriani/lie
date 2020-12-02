@@ -92,4 +92,4 @@ installAllTargets(SELF)
 # - link the target to the lieVersion library, which allow to have the root include directory added
 # - create folder structure for MSVC IDE
 # - analyze Dll dependencies per target and globally, which in turn will be used for deep installation and PATH generation
-commonEndProjectCMake(lie)
+commonEndProjectCMake(lieSol)

@@ -1,2 +1,2 @@
-## lie is a Qt and OPENGL based 3d visualizer
+## lie is a Eigen3 based SE3 SE2 lie algebra/group library
 
