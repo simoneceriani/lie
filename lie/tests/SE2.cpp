@@ -5,7 +5,7 @@
 #include "lie/SE2Exp.h"
 #include "lie/SE2Params.h"
 
-static const int N_RANDOM;
+static const int N_RANDOM = 1000;
 
 TEST_CASE( "SE2 params2Pose2params", "[SE2]" ) {
     

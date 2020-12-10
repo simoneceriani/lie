@@ -18,7 +18,7 @@ namespace lie {
 
     template <class Derived>
     explicit SE3Params(const Eigen::EigenBase<Derived>& d)
-      : eigenExtras::Tagged<S, 6, 1, TagSE3Params>(d) {
+      : Tagged<S, 6, 1, TagSE3Params>(d) {
 
     }
 
