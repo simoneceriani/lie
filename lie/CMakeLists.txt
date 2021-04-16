@@ -43,6 +43,9 @@ target_sources_wrapper(lie
 		SO3Params.h
 		Utils.h
     Tagged.h
+    S2.h
+    S2Alg.h
+    S2Exp.h
 	PRIVATE
 		Adjoint.cpp
 		Constants.cpp
@@ -55,7 +58,10 @@ target_sources_wrapper(lie
 		SO3Exp.cpp
 		SO3Log.cpp
 		SO3Params.cpp
-		Utils.cpp)
+		Utils.cpp
+    S2.cpp
+    S2Exp.cpp
+    )
 
 # if you do not want to have lied.{dll,lib,so} in debug disable this 
 set_target_properties(lie  PROPERTIES DEBUG_POSTFIX "d")

@@ -3,5 +3,5 @@ include_guard(GLOBAL)
 
 # generated with CMakeBaseBuildSystem
 
-set(CMakeBaseBuildSystem_HASH "472a54f9dcafc8d46d66e777844aa0c2758391d8")
-set(CMakeBaseBuildSystem_LOG "2020-12-02T23:04:23+01:00 first-commit")
+set(CMakeBaseBuildSystem_HASH "6adae98486937513ddbf244453e1a50225dcf5e6")
+set(CMakeBaseBuildSystem_LOG "2021-04-10T13:04:57+02:00 add-dll-recursion-analysis-on-generic-location-if-release-debug-not-found")
