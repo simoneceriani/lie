@@ -20,6 +20,7 @@ include(Catch)
 
 set(TESTS_LIST 
 	SE2.cpp
+	S2.cpp
 )
 
 foreach(s ${TESTS_LIST})
